@@ -10,7 +10,8 @@
   
 ## 👫 NextLoop팀 소개 
 
-![image](https://github.com/user-attachments/assets/734f6e3c-0487-4727-9635-38d13c266c37)
+![image](https://github.com/user-attachments/assets/f08287be-4e78-4ab0-9f3f-d550e1b54ab0)
+
 
 - **끊임없는 발전**  
    - 'Next'는 항상 다음 단계로 나아가는 것을 뜻함, 이는 계속해서 더 나은 솔루션과 기술을 탐구하고 도전한다는 의미를 담고 있음
@@ -25,8 +26,7 @@
 
 ## ✅ NextLoop Repository 방문 횟수 
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fminhyeok0328%2Fnext-loop&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-
+![Hits](https://komarev.com/ghpvc/?username=imella0707&color=green)
 
 
 ---
@@ -83,7 +83,8 @@
 ## 🖊 아키텍처
 
 ### **1. 전체 아키텍처** 
-![image](https://github.com/user-attachments/assets/3dbbe9fb-90c4-4033-ab9b-769772fb8c1a)
+![image](https://github.com/user-attachments/assets/5b774b05-bee5-453b-86f9-e87083a187a4)
+
 
 - Airflow의 역할
   - GCS에서 CSV 파일 검색 및 관리: GCSHook을 사용해 Google Cloud Storage 버킷에서 CSV 파일 리스트를 추출.
@@ -93,11 +94,12 @@
 
 
   
-![image](https://github.com/user-attachments/assets/cae3ce0d-dcad-4582-a13d-e453f04da21b) <br>
+![image](https://github.com/user-attachments/assets/082be03d-85a4-4363-911a-b775563ed8a0)<br>
 
 
 ### **2.파이프라인 상세 구조**
-![image](https://github.com/user-attachments/assets/8da81757-4720-4548-bd5f-f1b66901de49)
+![image](https://github.com/user-attachments/assets/f6ddff14-b870-4927-8c0b-d1af06895793)
+
 
 
 - 데이터 파이프라인은 4개의 주요 단계로 구성되어 있음.<br>
@@ -126,7 +128,8 @@
 
 
 ### **3.Mlops파이프라인 상세 구조**
-![image](https://github.com/user-attachments/assets/15ea07f8-c0c0-4b92-95b2-355b674bc189)
+![image](https://github.com/user-attachments/assets/75e0812d-2c00-4567-af96-1b8e4d95dc67)
+
 
 #### 1) 데이터 수집 및 로드
 - 원천 데이터는 Google Cloud Storage를 통해 수집 및 관리됨. 
@@ -168,12 +171,14 @@
     - Blue App: 기존 모델 서비스.
     - Green App: 새로 배포된 모델 서비스.
 
-![image](https://github.com/user-attachments/assets/86d9a467-ea5b-4591-b4a7-37e74e3ec93a)
+![image](https://github.com/user-attachments/assets/99abd7a9-c59a-43db-b55c-7b6e6d90efce)
+
 
 
 ---
 ## 🔔 모니터링
-![image](https://github.com/user-attachments/assets/99c324b5-a783-4f89-9fd8-6b642801bc8e)
+![image](https://github.com/user-attachments/assets/95a6dedc-5a3f-4864-9791-24df71de0fd9)
+
 
 ### 프로메테우스
 - 데이터 수집 방식: pull 방식 선택, 모니터링 대상 각각의 서버마다 설치하지 않고 monitoring 서버에만 prometheus를 설치함. 
@@ -188,11 +193,8 @@
   - cAdvisor: Docker 컨테이너의 CPU, 메모리, 네트워크 사용량 등 다양한 메트릭을 수집, 'container'이름으로 시작되는 메트릭들을 확인할 수 있음.
 - Airflow, Mlflow, Fastapi, Monitoring 서버 모두 같은 네트워크로 연결.
 
-![image](https://github.com/user-attachments/assets/add0bc53-bc5e-4800-893c-af0355a0dc53)
-  
-  
-![image](https://github.com/user-attachments/assets/5a1acb14-15fc-476f-a595-244ad635defd)
+![image](https://github.com/user-attachments/assets/d320df27-158b-4b51-a50c-964e1725e0f6)
 
-![image](https://github.com/user-attachments/assets/41e20b78-6652-4cdf-886f-802741ce3e42)
+![image](https://github.com/user-attachments/assets/89e873ad-3a5f-4743-9064-51bf8ba1fce2)
 
-
+![image](https://github.com/user-attachments/assets/c50185ea-27c4-44c1-9106-5ab51a3e190c)
